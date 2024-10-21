@@ -12,6 +12,7 @@
    display: flex;
    justify-content: space-between/* espaço entre os itens*/;
    align-items: center;
+   position: relative;
 }
 .container{
     display: flex;
@@ -20,3 +21,12 @@
 container__imagem{
     padding: 1em;
 }
+.lista-menu{
+     display: nome;/*esconde o elemento*/ 
+     position: absolute;
+     top: 100%;
+}
+container__botao:checked~.lista.menu{
+    display: block;
+}
+   
